@@ -1,0 +1,23 @@
+/*  
+açıklama satırı csste böyle
+yapılıyor
+
+*/
+body {
+  background-color: coral;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: red;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 30px;
+}
+
+ul {
+  color: blue;
+}
