@@ -1,0 +1,69 @@
+/*  
+*/
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+/* ul > li:first-child {
+  color: yellow;
+}
+li:last-child {
+  color: aqua;
+} */
+
+li:nth-child(2) {
+  color: red;
+}
+li:nth-child(odd) {
+  color: blue;
+}
+li:nth-child(even) {
+  background-color: aliceblue;
+}
+li:nth-child(2n-1) {
+  background-color: aquamarine;
+}
+
+.color-blue.fw-normal {
+  color: blue;
+  font-weight: normal;
+}
+.color-blue .fw-normal {
+  color: blue;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #996f6f;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#first-article {
+  font-size: 40px;
+}
+
+.text-red {
+  color: red;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
